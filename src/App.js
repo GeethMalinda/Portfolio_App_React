@@ -1,9 +1,11 @@
-import Navbar from './Component/Navbar';
+import Navbar from './Component/Navbar/Navbar.jsx';
 import './App.css'
+import Intro from './Component/Intro/Intro';
 function App() {
   return (
     <div className="App">
       <Navbar/>
+      <Intro/>
     </div>
   );
 }
